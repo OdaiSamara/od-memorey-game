@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bs4/css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <title>memorey game</title>
+</head>
+
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="container info">
+        <div class="name">Hello:<span></span></div>
+        <div class="wrong">wrong:<span>0</span></div>
+    </div>
+    <div class="container memorey-game-block">
+
+        <!-- cherry -->
+        <div class="game-block" data-fruit="cherry">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/one.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="cherry">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/one.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- tomato -->
+        <div class="game-block" data-fruit="tomato">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/two.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="tomato">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/two.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- grapes -->
+        <div class="game-block" data-fruit="grapes">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/three.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="grapes">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/three.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Strawberry -->
+        <div class="game-block" data-fruit="Strawberry">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/four.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="Strawberry">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/four.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- apple -->
+        <div class="game-block" data-fruit="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/five.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/five.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- banana -->
+        <div class="game-block" data-fruit="banana">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/six.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="banana">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/six.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- ananas -->
+        <div class="game-block" data-fruit="ananas">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/seven.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="ananas">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/seven.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- rman -->
+        <div class="game-block" data-fruit="rman">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/eight.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="rman">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/eight.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- whaterwman -->
+        <div class="game-block" data-fruit="whaterwman">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/nine.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="whaterwman">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/nine.jpg" alt="">
+            </div>
+        </div>
+
+
+        <!-- kraz -->
+        <div class="game-block" data-fruit="kraz">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/ten.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit="kraz">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imges/ten.jpg" alt="">
+            </div>
+        </div>
+
+        <audio id="background" src="sound/background.mp3"></audio>
+        <audio id="error" src="sound/error.mp3"></audio>
+        <audio id="success" src="sound/success.mp3"></audio>
+    </div>
+
+    <script src="js/memory.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bs4/js/bootstrap.min.js"></script>
+</body>
+
+</html>
